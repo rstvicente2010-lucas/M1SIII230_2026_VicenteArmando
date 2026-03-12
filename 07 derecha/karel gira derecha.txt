@@ -1,0 +1,12 @@
+iniciar-programa    
+       	define-nueva-instruccion derecha como
+        	inicio
+            	gira-izquierda;
+                	gira-izquierda;
+                    	gira-izquierda;
+         	fin;
+        	inicia-ejecucion
+         	derecha;
+        apagate
+    termina-ejecucion
+finalizar-programa
