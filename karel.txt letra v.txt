@@ -1,0 +1,44 @@
+iniciar-programa  
+      
+        define-nueva-instruccion derecha como
+        	inicio
+            	gira-izquierda;
+                	gira-izquierda;
+                    	gira-izquierda;
+         	fin;
+         define-nueva-instruccion v como
+       inicio
+         	derecha;
+            	derecha;
+                	deja-zumbador;
+                    	avanza;
+            repetir 3 veces 
+            inicio 
+            	deja-zumbador;
+                	gira-izquierda;
+                    	avanza;
+                        	derecha;
+                            	avanza;
+           fin;  
+           	gira-izquierda;
+              gira-izquierda;
+                	avanza;
+                repetir 2 veces
+                inicio
+                	avanza;
+                    	deja-zumbador;
+                        	derecha;
+                            	avanza;
+                                	gira-izquierda;
+                fin; 
+                	avanza;
+                    	gira-izquierda;
+                        	avanza;
+                            	deja-zumbador;
+                                	derecha;
+          fin;                          
+    inicia-ejecucion
+    	v;
+        apagate
+    termina-ejecucion
+finalizar-programa
